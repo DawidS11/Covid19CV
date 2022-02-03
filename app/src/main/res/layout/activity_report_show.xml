@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <TableLayout
+        android:id="@+id/tableLayout0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/tableRow01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:padding="5dp"
+            android:background="#A0A0A0">
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Diagnostic code: "></TextView>
+
+            <TextView
+                android:id="@+id/diagnosticCodeView"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Text"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Symptom start date: "></TextView>
+
+            <TextView
+                android:id="@+id/symptomStartDate"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Text"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:padding="5dp"
+            android:background="#A0A0A0">
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Fever or chills: "></TextView>
+
+            <TextView
+                android:id="@+id/symptom0"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Text"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Cough: "></TextView>
+
+            <TextView
+                android:id="@+id/symptom1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Text"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:padding="5dp"
+            android:background="#A0A0A0">
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Shortness of breath or difficulty breathing: "></TextView>
+
+            <TextView
+                android:id="@+id/symptom2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Text"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Fatigue: "></TextView>
+
+            <TextView
+                android:id="@+id/symptom3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Text"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:padding="5dp"
+            android:background="#A0A0A0">
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Muscle or body aches: "></TextView>
+
+            <TextView
+                android:id="@+id/symptom4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Text"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Headache: "></TextView>
+
+            <TextView
+                android:id="@+id/symptom5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Text"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:padding="5dp"
+            android:background="#A0A0A0">
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="New loss of taste or smell: "></TextView>
+
+            <TextView
+                android:id="@+id/symptom6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Text"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow010"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/TextView010"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Sore throat: "></TextView>
+
+            <TextView
+                android:id="@+id/symptom7"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Text"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow011"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:padding="5dp"
+            android:background="#A0A0A0">
+
+            <TextView
+                android:id="@+id/TextView011"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Congestion or runny nose: "></TextView>
+
+            <TextView
+                android:id="@+id/symptom8"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Text"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow012"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/TextView012"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Nausea or vomiting: "></TextView>
+
+            <TextView
+                android:id="@+id/symptom9"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Text"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow013"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:padding="5dp"
+            android:background="#A0A0A0">
+
+            <TextView
+                android:id="@+id/TextView013"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Diarrhea: "></TextView>
+
+            <TextView
+                android:id="@+id/symptom10"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Text"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow014"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/TextView014"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Close contact: "></TextView>
+
+            <TextView
+                android:id="@+id/closeContact"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Text"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow015"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:padding="5dp"
+            android:background="#A0A0A0">
+
+            <TextView
+                android:id="@+id/TextView015"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Municipality name: "></TextView>
+
+            <TextView
+                android:id="@+id/municipalityNameView"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Text"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
